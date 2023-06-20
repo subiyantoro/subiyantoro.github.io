@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import Background from "./components/Background";
 import {Outlet, useLocation} from "react-router-dom";
+import FloatMenu from "./components/FloatMenu";
 
 const MainLayout = () => {
     const [isLoading ,setIsLoading] = useState(false);
@@ -18,6 +19,7 @@ const MainLayout = () => {
             {!isLoading && (
                 <>
                     <div className="w-screen justify-center">
+                        {route.pathname !== '/' && <FloatMenu />}
                         <Outlet />
                     </div>
                     <Background />
