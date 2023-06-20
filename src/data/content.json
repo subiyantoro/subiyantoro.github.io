@@ -1,3 +1,73 @@
 {
-  "greeting": "Software Engineer, Frontend Engineer"
+  "greeting": "Software Engineer, Frontend Engineer",
+  "bio": {
+    "name": "Subiyantoro",
+    "email": "subiyantoro49@gmail.com",
+    "area": "Bandung/Yogyakarta",
+    "role": "Frontend Engineer"
+  },
+  "experience": [
+    {
+      "position": "Frontend Sr. Associate",
+      "company": "PT. Majoo Indonesia",
+      "date": "Nov 2021 – Jun 2023",
+      "desc": "I am responsible for the maintenance of the Majoo Dashboard application to ensure its continuous and proper functioning, which encompasses the following tasks:",
+      "content": [
+        "Fixing bugs in the existing e-commerce integration feature of the dashboard application.",
+        "Develop the food order integration feature, specifically incorporating GoFood and GrabMart, into the dashboard application.",
+        "Convert the UI/UX design from Figma into a web application.",
+        "Review the codes in the pull request submitted by the junior developer."
+      ]
+    },
+    {
+      "position": "IT Programmer Office",
+      "company": "PT. Mineral Alam Abadi",
+      "date": "Apr 2021 - Oct 2021",
+      "desc": "Building HRIS tool platform to manage internal data such as attendance, reimbursement, annual leave, government administration and realtime news from scratch.\n\nInvolved in these activities (including but not limited to):",
+      "content": [
+        "Lead the Web-Based HRIS SEMANGAT (Sistem Manajemen Terpusat) Dashboard project development",
+        "Developing SEMANGAT (Sistem Manajemen Terpusat) Mobile Apps Based On Android and IOS for User Endpoint",
+        "Developing API system for centralized data management from dashboards and mobile applications",
+        "Building platforms for SEMANGAT ecosystem with CI/CD deployment pipelines and lifecycle."
+      ]
+    },
+    {
+      "position": "Technical Support IT Support operation",
+      "company": "PT. Telkomsel",
+      "date": "Jul 2018 – Mar 2021",
+      "desc": "Monitoring and maintenance Telkomsel's internal network devices and ensure that service working well all the time.\n\nSome the activities carried out are the following:",
+      "content": [
+        "Developing realtime monitoring tools based on Android (IT Checklist) based on React Native Technology",
+        "Developing checklist device tools to transform manual checklist to automation checklist and reporting any device installed on Telkomsel West Java site specially on IT Operation Division devices.",
+        "Developing Telegram bot tools to generate ticket user issues which has been resolved by IT Team",
+        "Assist manage and maintain internal network devices",
+        "Handling and creating ticket user hardware and software company complaint"
+      ]
+    },
+    {
+      "position": "Staff IT Support Operation",
+      "company": "PT. Zamrud Technology Khatulistiwa",
+      "date": "Jul 2014 – Dec 2014",
+      "desc": "Install and maintain each RISE application system on all FM radio clients, and make sure everything is working properly.\n\nInvolved this activites :",
+      "content": [
+        "As a service center for clients' concerns that need to be handled immediately",
+        "Testing any new features or bug fixes on the developed RISE system",
+        "Manage and monitor the central server as well as each client-side server"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Terbuka",
+      "date": "2019 - 2023",
+      "desc": "GPA 3.58"
+    }
+  ],
+  "training": [
+    {
+      "school": "Purwadhika Technology School",
+      "date": "Mar 2021 - Aug 2021",
+      "desc": "GPA 84.6"
+    }
+  ]
 }

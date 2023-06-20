@@ -1,10 +1,10 @@
 import {useEffect, useState} from "react";
-import Avatar from '../assets/avatar.jpeg'
 import Background from "./components/Background";
-import {Outlet} from "react-router-dom";
+import {Outlet, useLocation} from "react-router-dom";
 
 const MainLayout = () => {
     const [isLoading ,setIsLoading] = useState(false);
+    const route = useLocation();
 
     useEffect(() => {
         setIsLoading(true);
@@ -14,7 +14,7 @@ const MainLayout = () => {
     }, []);
 
     return (
-        <div className={`${isLoading ? 'bg-white' : 'bg-gray-800'} h-screen transition duration-500 ease-in grid content-center`}>
+        <div className={`${isLoading ? 'bg-white' : 'bg-gray-800'} min-h-screen transition duration-500 ease-in grid ${route.pathname === '/' && 'content-center'}`}>
             {!isLoading && (
                 <>
                     <div className="w-screen justify-center">

@@ -17,6 +17,9 @@ code {
 }
 
 @layer component {
+  body {
+    color: white;
+  }
   .circles{
     position: inherit;
     top: 0;
