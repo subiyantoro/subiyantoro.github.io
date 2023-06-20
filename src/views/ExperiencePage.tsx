@@ -7,6 +7,7 @@ const ExperiencePage = () => {
 
     return (
         <motion.div
+            layout
             initial="hidden"
             animate="visible"
             exit={{ opacity: 0, transition: { duration: 1 } }}
