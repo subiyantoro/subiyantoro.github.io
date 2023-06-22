@@ -36,7 +36,7 @@ const HomePage = () => (
             "
             >
                 <div className="font-mono text-center">
-                    <h1 className="font-bold text-lg">Hei, Subi Here</h1>
+                    <h1 className="font-bold text-lg">Hai, Subiyantoro Here</h1>
                     <p>{content.greeting}</p>
                 </div>
             </div>

@@ -3,6 +3,8 @@ import MainLayout from "../views/MainLayout";
 import HomePage from "../views/HomePage";
 import ErrorPage from "../views/ErrorPage";
 import ExperiencePage from "../views/ExperiencePage";
+import PortoPage from "../views/PortoPage";
+import ContactPage from "../views/ContactPage";
 
 const routes = createBrowserRouter([
     {
@@ -16,6 +18,14 @@ const routes = createBrowserRouter([
             {
                 path: 'experience',
                 element: <ExperiencePage />
+            },
+            {
+                path: 'portfolio',
+                element: <PortoPage />,
+            },
+            {
+                path: 'contact',
+                element: <ContactPage />,
             }
         ]
     }
